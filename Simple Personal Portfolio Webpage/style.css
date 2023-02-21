@@ -1,0 +1,224 @@
+﻿body {
+    margin:0;
+    padding:0;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 45%;
+    background: rgba(0,0,0,0.7);
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+
+}
+.imagebox {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+.container h1 {
+    font-family: 'Perpetua Titling MT';
+    font-size: 200%;
+    text-shadow: 3px 3px black;
+}
+.container h2 {
+    font-style: italic;
+    font-size: 100%;
+    font-family: Georgia;
+    text-shadow: 3px 3px black;
+}
+
+.container h3 {
+    font-style: italic;
+    font-size: 250%;
+    font-family: Georgia;
+    text-shadow: 3px 3px black;
+}
+
+.bottomcontainer {
+    width: 45%;
+    padding:2%;
+    text-align: center;
+    margin: auto;
+    margin-top: 0.5%;
+    color: white;
+}
+.hobbiescont {
+    width: 45%;
+    background: rgba(0,0,0,0.9);
+    padding: 2%;
+    margin: auto;
+    color: white;
+
+}
+
+
+.btnAbout {
+    width: 30%;
+    height: 80px;
+    border: none;
+    color: black;
+    background-color: azure;
+    border-radius: 5%;
+    box-shadow: inset 0 0 0 0 #000033;
+    transition: ease-out 0.5s;
+    font-size: 200%;
+    outline: none;
+    border: 3px solid black;
+    font-family: 'Edo SZ';
+    margin:1.5%;
+}
+
+.btnAbout:hover {
+    box-shadow: inset 300px 0 0 0 #000033;
+    cursor: pointer;
+    color: white;
+    border-radius: 5%;
+}
+.btnAboutBack {
+    width: 20%;
+    height: 80px;
+    border: none;
+    color: black;
+    background-color: azure;
+    border-radius: 5%;
+    box-shadow: inset 0 0 0 0 #000033;
+    transition: ease-out 0.5s;
+    font-size: 180%;
+    outline: none;
+    border: 1px solid black;
+    font-family: 'Edo SZ';
+    margin: 1.5%;
+}
+
+.btnAboutBack:hover {
+    box-shadow: inset 300px 0 0 0 #000033;
+    cursor: pointer;
+    color: white;
+    border-radius: 5%;
+}
+.btnSocials {
+    width: 30%;
+    height: 80px;
+    border: none;
+    color: black;
+    background-color: azure;
+    border-radius: 5%;
+    box-shadow: inset 0 0 0 0 #4747d1;
+    transition: ease-out 0.5s;
+    font-size: 200%;
+    outline: none;
+    border: 3px solid black;
+    font-family: 'Edo SZ';
+    margin: 1.5%;
+}
+
+.btnSocials:hover{
+    box-shadow: inset 300px 0 0 0 #4747d1;
+    cursor: pointer;
+    color: white;
+    border-radius: 5%;
+}
+
+.btnSocBack {
+    width: 20%;
+    height: 80px;
+    border: none;
+    color: black;
+    background-color: azure;
+    border-radius: 5%;
+    box-shadow: inset 0 0 0 0 #4747d1;
+    transition: ease-out 0.5s;
+    font-size: 180%;
+    outline: none;
+    border: 1px solid black;
+    font-family: 'Edo SZ';
+    margin: 1.5%;
+}
+    
+.btnSocBack:hover {
+    box-shadow: inset 300px 0 0 0 #4747d1;
+    cursor: pointer;
+    color: white;
+    border-radius: 5%;
+}
+
+.btnHobby {
+    width: 30%;
+    height: 80px;
+    border: none;
+    color: black;
+    background-color: azure;
+    border-radius: 5%;
+    box-shadow: inset 0 0 0 0 #000099;
+    transition: ease-out 0.5s;
+    font-size: 200%;
+    outline: none;
+    border: 3px solid black;
+    font-family: 'Edo SZ';
+    margin: 1.5%;
+}
+
+.btnHobbiesBack {
+    width: 20%;
+    height: 80px;
+    border: none;
+    color: black;
+    background-color: azure;
+    border-radius: 5%;
+    box-shadow: inset 0 0 0 0 #00004d;
+    transition: ease-out 0.5s;
+    font-size: 180%;
+    outline: none;
+    border: 1px solid black;
+    font-family: 'Edo SZ';
+    margin: 1.5%;
+}
+
+.btnHobby:hover{
+    box-shadow: inset 300px 0 0 0 #000099;
+    cursor: pointer;
+    color: white;
+    border-radius: 5%;
+}
+
+.btnHobbiesBack:hover {
+    box-shadow: inset 300px 0 0 0 #000099;
+    cursor: pointer;
+    color: white;
+    border-radius: 5%;
+}
+
+ul{
+    margin:0;
+    padding:0;
+
+}
+
+.hobbiescont li{
+    font-size:150%;
+    font-family:Dubai;
+}
+
+.container li {
+    display: inline-block;
+    margin: 3px;
+    list-style: none;
+    text-indent: 10%;
+}
+
+.container li a{
+    color: white;
+    text-decoration: none;
+    font-size: 80px;
+    transition: all ease-in-out 250ms;
+    
+}
+
+.container li a:hover {
+    color: #b9b9b9;
+}
